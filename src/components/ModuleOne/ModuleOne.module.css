@@ -1,13 +1,12 @@
 .container {
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 35px;
   background-color: #ff6f69;
   border: 4px solid #000;
-  margin-bottom: 10px;
 }
 
 .listBox {
@@ -21,8 +20,31 @@
   margin-bottom: 20px;
 }
 
-.buttonBox {
+.buttonBox,
+.inputBox {
   display: flex;
   justify-content: center;
   gap: 10px;
+
+  margin-bottom: 20px;
+}
+
+.labelBox {
+  margin: auto;
+}
+
+.label {
+  font-size: large;
+  font-weight: 700;
+}
+
+.input {
+  width: 80px;
+  padding: 2px;
+  margin-left: 5px;
+
+  text-align: center;
+
+  font-size: small;
+  font-weight: 700;
 }
