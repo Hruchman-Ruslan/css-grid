@@ -1,0 +1,1 @@
+import{u as e,j as t}from"./index-1LvJf_7_.js";import"./ModuleOne.module-qGQFW-6E.js";const o=()=>({navigate:e()}),a=()=>{const{navigate:n}=o();return t.jsx(t.Fragment,{children:t.jsx("button",{type:"button",onClick:()=>n("/module-01"),children:"Module-01"})})},r=()=>t.jsx(a,{});export{r as default};
