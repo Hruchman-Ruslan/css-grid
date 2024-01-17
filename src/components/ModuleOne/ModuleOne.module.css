@@ -1,50 +1,21 @@
-.container {
-  width: 250px;
-  height: 250px;
-  display: flex;
+.item {
+  display: grid;
   justify-content: center;
   align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
   font-size: 35px;
   background-color: #ff6f69;
-  border: 4px solid #000;
+  color: #ffeead;
 }
 
-.listBox {
-  width: 1280px;
-  height: auto;
-
-  padding: 20px;
-
-  border: 1px solid yellow;
-
-  margin-bottom: 20px;
+.item p {
+  margin: 0 0 5px 0;
 }
 
-.buttonBox,
-.inputBox {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-
-  margin-bottom: 20px;
-}
-
-.labelBox {
-  margin: auto;
-}
-
-.label {
-  font-size: large;
-  font-weight: 700;
-}
-
-.input {
-  width: 80px;
-  padding: 2px;
-  margin-left: 5px;
-
-  text-align: center;
-
-  font-size: small;
-  font-weight: 700;
+.container {
+  display: grid;
+  grid-template-columns: 100px 200px 400px;
+  grid-template-rows: 200px 150px 100px;
+  gap: 50px 100px;
 }
