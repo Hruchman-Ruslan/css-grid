@@ -3,8 +3,6 @@ import { lazy } from "react";
 
 import { Layout } from "./Layout/Layout";
 
-import "./App.css";
-
 const MainPage = lazy(() => import("../pages/MainPage"));
 const MoDuleOnePage = lazy(() => import("../pages/ModuleOnePage"));
 
