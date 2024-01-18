@@ -1,10 +1,10 @@
 .item {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   border: 5px solid rgba(0, 0, 0, 0.03);
   border-radius: 3px;
-  font-size: 35px;
+  font-size: 25px;
   background-color: #ff6f69;
   color: #ffeead;
 }
@@ -13,9 +13,56 @@
   margin: 0 0 5px 0;
 }
 
+.button {
+  padding: 10px;
+  margin: auto;
+  cursor: pointer;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 25px;
+  background-color: #285880;
+  color: #ffeead;
+}
+
+.buttonBox {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  color: #285880;
+}
+
+.input {
+  width: 110px;
+  text-align: center;
+  padding: 5px;
+
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 18px;
+  background-color: #285880;
+  color: #ffeead;
+}
+
 .container {
+  margin-bottom: 40px;
   display: grid;
-  grid-template-columns: 100px 200px 400px;
-  grid-template-rows: 200px 150px 100px;
-  gap: 50px 100px;
 }
