@@ -1,0 +1,1 @@
+import{j as e}from"./index-qosGGnm6.js";import{b as s}from"./ModuleTwo.module-qGyCj_Wb.js";const o=()=>e.jsx(e.Fragment,{children:e.jsx("div",{className:s.title,children:"Module-02"})}),l=()=>e.jsx(o,{});export{l as default};
