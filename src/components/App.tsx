@@ -4,7 +4,8 @@ import { lazy } from "react";
 import { Layout } from "./Layout/Layout";
 
 const MainPage = lazy(() => import("../pages/MainPage"));
-const MoDuleOnePage = lazy(() => import("../pages/ModuleOnePage"));
+const ModuleOnePage = lazy(() => import("../pages/ModuleOnePage"));
+const ModuleTwoPage = lazy(() => import("../pages/ModuleTwoPage"));
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Navigate to="/main" />} />
           <Route path="/main" element={<MainPage />} />
-          <Route path="/module-01" element={<MoDuleOnePage />} />
+          <Route path="/module-01" element={<ModuleOnePage />} />
+          <Route path="/module-02" element={<ModuleTwoPage />} />
         </Route>
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
