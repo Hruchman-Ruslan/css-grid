@@ -69,3 +69,85 @@
   /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+
+/* step-four */
+
+.four {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  gap: 20px;
+  grid-template-areas:
+    "h h h h"
+    "m m . s"
+    "f f f f";
+}
+
+.fourHeader {
+  grid-area: h;
+}
+
+.fourMain {
+  grid-area: m;
+}
+
+.fourSidebar {
+  grid-area: s;
+}
+
+.fourFooter {
+  grid-area: f;
+}
+
+@media (max-width: 700px) {
+  .four {
+    grid-template-areas:
+      "s h h h"
+      "s m m m"
+      "s f f f";
+  }
+}
+
+/* step-five */
+
+.five {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  height: 500px;
+  border: 10px solid black;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: start;
+  align-content: start;
+}
+
+.self {
+  justify-self: stretch;
+  align-self: stretch;
+}
+
+/* step-six */
+
+.six {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.itemS {
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 35px;
+  background-color: #ff6f69;
+  color: #ffeead;
+}
+
+.itemSix {
+  border: 2px solid #000;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
