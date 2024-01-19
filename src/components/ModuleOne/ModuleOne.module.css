@@ -1,5 +1,5 @@
 .item {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   border: 5px solid rgba(0, 0, 0, 0.03);
