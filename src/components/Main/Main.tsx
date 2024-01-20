@@ -22,6 +22,13 @@ export const Main: FC = () => {
       >
         Module-02
       </button>
+      <button
+        className={styles.button}
+        type="button"
+        onClick={() => navigate("/project")}
+      >
+        Project
+      </button>
     </div>
   );
 };

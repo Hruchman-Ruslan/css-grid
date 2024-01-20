@@ -1,5 +1,6 @@
+import { FC } from "react";
 import { ModuleOne } from "../components";
 
-const ModuleOnePage = () => <ModuleOne />;
+const ModuleOnePage: FC = () => <ModuleOne />;
 
 export default ModuleOnePage;
