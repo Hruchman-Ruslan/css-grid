@@ -1,13 +1,11 @@
 import { FC } from "react";
 
-import styles from "./Project.module.css";
+import { Header } from "./components/Header/Header";
 
 export const Project: FC = () => {
   return (
     <>
-      <div className={styles.container}>
-        <div className={styles.title}>Project</div>
-      </div>
+      <Header />
     </>
   );
 };
