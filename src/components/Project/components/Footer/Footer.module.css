@@ -4,16 +4,16 @@
   padding: 0 16px;
 }
 
-.header {
-  background-color: var(--common-white);
-  padding: 16px 0;
+.footer {
+  padding: 16px;
+  background-color: var(--blue-light);
 }
 
-.headerContainer {
+.footerContainer {
   display: grid;
   grid-template-columns: 24px 1fr;
-  column-gap: 8px;
   align-items: center;
+  gap: 8px;
 }
 
 .logo {
