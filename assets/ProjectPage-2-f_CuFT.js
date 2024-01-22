@@ -1,1 +1,0 @@
-import{j as e}from"./index-vCEbsBx1.js";import{c as s}from"./Project.module-CsX0rl-G.js";const t=()=>e.jsx(e.Fragment,{children:e.jsx("div",{className:s.container,children:e.jsx("div",{className:s.title,children:"Project"})})}),o=()=>e.jsx(t,{});export{o as default};
