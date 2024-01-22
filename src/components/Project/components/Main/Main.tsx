@@ -131,7 +131,7 @@ export const Main: FC = () => {
               </li>
             </ul>
             <div className={styles.socials}>
-              <h2 className={`${styles.postTitle} ${styles.title}`}>
+              <h2 className={`${styles.socialsTitle} ${styles.title}`}>
                 Соцмережі
               </h2>
               <ul className={styles.socialsList}>
